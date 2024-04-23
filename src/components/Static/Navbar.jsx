@@ -33,24 +33,6 @@ export default function Navbar() {
                 active: 'fas fa-user'
             },
             active: router.pathname === '/about'
-        },
-        {
-            link: '/projects',
-            label: 'Projects',
-            icon: {
-                default: 'fal fa-project-diagram',
-                active: 'fas fa-project-diagram'
-            },
-            active: router.pathname === '/projects'
-        },
-        {
-            link: '/posts',
-            label: 'Posts',
-            icon: {
-                default: 'fal fa-newspaper',
-                active: 'fas fa-newspaper'
-            },
-            active: router.pathname === '/posts'
         }
     ]
 
