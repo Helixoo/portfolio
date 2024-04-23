@@ -3,7 +3,7 @@ import clquConfig from "../../../clqu.config";
 export default async (req, res) => {
     let _ = await (await fetch('https://api.github.com/users/' + clquConfig.githubName + '/repos', {
         headers: {
-            Authorization: 'token '+ clquConfig.githubKey
+            Authorization: 'token '+ ${{ secrets.GT_KEY }}
         }
     })).json();
 
