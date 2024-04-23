@@ -2,6 +2,7 @@ module.exports = {
     name: 'Bark1n',
     version: '3.0.0',
     githubName: 'BrknYY',
+    githubKey: process.env.G_KEY,
     softwareerKey: process.env.SOFTWAREER_KEY,
     email: 'no@clqu.me',
     errors: {
