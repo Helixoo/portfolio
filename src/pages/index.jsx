@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
           <span className="text-primary uppercase">Repositories</span>
-          <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">{repositories?.length}+</p>
+          <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">{repositories?.length}</p>
         </div>
       </div>
     </div>
