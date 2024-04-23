@@ -4,7 +4,7 @@ module.exports = {
     githubName: 'clqu',
     githubKey: process.env.GITHUB_KEY,
     softwareerKey: process.env.SOFTWAREER_KEY,
-    email: 'root@clqu.me',
+    email: 'no@clqu.me',
     errors: {
         404: "This page could not be found.",
         500: "An error occurred while processing your request."
