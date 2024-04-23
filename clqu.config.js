@@ -1,8 +1,8 @@
 module.exports = {
     name: 'Bark1n',
     version: '3.0.0',
-    githubName: 'Helixoo',
-    githubKey: secrets.KEY,
+    githubName: 'BrknYY',
+    githubKey:  process.env.GGG,
     softwareerKey: process.env.SOFTWAREER_KEY,
     email: 'no@clqu.me',
     errors: {
