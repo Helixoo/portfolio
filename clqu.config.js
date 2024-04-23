@@ -2,7 +2,7 @@ module.exports = {
     name: 'Bark1n',
     version: '3.0.0',
     githubName: 'BrknYY',
-    githubKey: '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',
+    githubKey: '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',
     softwareerKey: process.env.SOFTWAREER_KEY,
     email: 'no@clqu.me',
     errors: {
