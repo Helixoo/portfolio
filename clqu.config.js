@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'clqu',
+    name: 'Bark1n',
     version: '3.0.0',
-    githubName: 'clqu',
+    githubName: 'BrknYY',
     githubKey: process.env.GITHUB_KEY,
     softwareerKey: process.env.SOFTWAREER_KEY,
     email: 'no@clqu.me',
