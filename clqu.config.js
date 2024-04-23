@@ -2,9 +2,9 @@ module.exports = {
     name: 'Bark1n',
     version: '3.0.0',
     githubName: 'BrknYY',
-    githubKey:  process.env.GGG,
     softwareerKey: process.env.SOFTWAREER_KEY,
     email: 'no@clqu.me',
+    githubKey:  ${{ secrets.GT_KEY }} ,
     errors: {
         404: "This page could not be found.",
         500: "An error occurred while processing your request."
