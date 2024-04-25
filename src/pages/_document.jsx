@@ -11,7 +11,7 @@ export default function MyDocument() {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
                 <meta name="description" content="Bark1n | Student" />
-                <link rel="icon" href="../../../favicon.ico" type="image/x-icon"/>
+                <link rel="icon" href="https://drive.google.com/file/d/1bka9fMoW3l-kgxsstvvfNe9sPfrZkFsa/view" type="image/x-icon"/>
             </Head>
             <body>
                 <Main />
