@@ -2,7 +2,7 @@ module.exports = {
     name: 'Bark1n',
     version: '3.0.0',
     githubName: 'BrknYY',
-    githubKey: ${{ secrets.GT_KEY }},
+    githubKey: process.env.GITHUB_KEY ,
     softwareerKey: process.env.SOFTWAREER_KEY,
     email: 'barkin@fbi.ac',
     errors: {
