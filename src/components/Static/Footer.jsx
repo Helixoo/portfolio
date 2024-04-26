@@ -24,6 +24,7 @@ export default function Footer() {
                 <p className="text-lg text-zinc-400">© 2019 - {new Date().getFullYear()} {clquConfig.name}. All rights reserved.</p>
                 <div className="text-right">
                     <p className="text-lg text-zinc-400 select-none">Made with <i onClick={() => { setHeartColor(randomColor()) }} className="fas fa-heart" style={{ color: heartColor, cursor: 'pointer' }} /> by <a href="" className="text-zinc-400 hover:text-primary hover:dark:text-white">{clquConfig.name}</a></p>
+                    <p className="text-sm text-zinc-400 select-none">Thanks to <a className="text-zinc-400 hover:text-primary hover:dark:text-white">Clqu</a></p>
                 </div>
             </div>
         </div>
